@@ -30,7 +30,7 @@ if [[ -r ~/.python-projectrc ]]; then
     . ~/.python-projectrc
 fi
 
-while getopts 'a:e:p:h' arg; do
+while getopts 'a:e:p:' arg; do
     case "${arg}" in 
         a) AUTHOR="${OPTARG}" ;;
         e) EMAIL="${OPTARG}" ;;
