@@ -1,0 +1,13 @@
+usage python-project [options] projectname
+  boilerplate automation for new python projects
+
+  options:
+    -a    author of the project
+    -e    email of the author of the project
+    -p    which python binary to target (default \"python\")
+
+python-project needs the author and email to be set. It reads ~/.python-projectrc,
+which should just be a bash script setting AUTHOR and EMAIL and possibly PYTHON.
+
+Options specified on the command line override options in the configuration
+file.
